@@ -5,9 +5,9 @@ public class Fecha
        //------------------
     // Atributos
     //------------------
-    private int dia;
-    private int mes;
-    private int anio;
+    protected int dia;
+    protected int mes;
+    protected int anio;
 
     //------------------
     // Metodos
