@@ -1,6 +1,7 @@
 package ejecutable;
 
 import modelo.Fecha;
+import modelo.FechaDetallada;
 
 public class Test
 {
@@ -34,5 +35,9 @@ public class Test
        {
         System.out.println("Las fechas no son iguales");
        }
+
+       FechaDetallada fecha1 = new FechaDetallada(19, 11, 2022);
+       System.out.println(fecha1.toString());
     }
+
 }
